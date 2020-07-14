@@ -12,10 +12,10 @@ function generate() {
 // set prompt/confirms 
     var charCount = window.prompt("How many characters would you like your password to be? (8-128)");
     var passLength = parseInt(charCount);
-    var letterLittle = window.confirm("Would you like lowercase letters?")
-    var letterBig = window.confirm("Would you like uppercase letters?");
-    var nums = window.confirm("Would you like numbers in your password?");
-    var specialDigits = window.confirm("Would you like to use special characters in your password?");
+    var letterLittle = window.confirm("Click OK if you would like lowercase letters?")
+    var letterBig = window.confirm("Click OK if you would like uppercase letters?");
+    var nums = window.confirm("Click OK if you would like numbers in your password?");
+    var specialDigits = window.confirm("Click OK if you would like to use special characters in your password?");
 // allChoices to help concatenate the values with the spefications of the prompts/confirms
     var allChoices = ""
 
