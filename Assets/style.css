@@ -1,0 +1,56 @@
+.navbar {
+    background-size: cover;
+    border-bottom: 10px groove cadetblue !important;
+    background-image: url(/Users/rosemaryforsyth/PassGenLogic/Assets/jumbobackgroundimg.jpg);
+}
+.navbar-brand {
+    font-family: cursive;
+    font-size: 70px;
+    color:cadetblue !important;
+    text-shadow:6px 6px 6px black;
+
+}
+
+.jumbotron {
+    margin-top: 10px;
+    background-image: url(/Users/rosemaryforsyth/PassGenLogic/Assets/jumbobackgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: 5px inset cadetblue;
+    box-shadow: black;
+}
+
+
+.jumbo-title {
+   text-align: center;
+    font-family: cursive ;
+    font-size: 50px;
+    font-weight: 800;
+    color:cadetblue;
+    text-shadow:6px 6px 6px black;
+ 
+    
+}
+button:hover {
+    color: white;
+    background-color: cadetblue;
+}
+button {
+    font-family: cursive;
+    color: cadetblue;
+}
+#generatedPassword {
+font-size: large;
+font-weight: bold;
+color: white;
+overflow-wrap: break-word;
+}
+
+body {
+    background-image: radial-gradient(circle, cadetblue, rgb(32, 72, 32));
+}
+
+input {
+    margin-top: 5px;
+}
