@@ -1,7 +1,7 @@
 .navbar {
     background-size: cover;
     border-bottom: 10px groove cadetblue !important;
-    background-image: url(./Assets/jumbobackgroundimg.jpg);
+    background-image: url(./jumbobackgroundimg.jpg) !important;
 }
 .navbar-brand {
     font-family: cursive;
@@ -13,7 +13,7 @@
 
 .jumbotron {
     margin-top: 10px;
-    background-image: url(./Assets/jumbobackgroundimg.jpg);
+    background-image: url(./jumbobackgroundimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
