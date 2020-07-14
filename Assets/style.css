@@ -13,7 +13,7 @@
 
 .jumbotron {
     margin-top: 10px;
-    background-image: url(/Users/rosemaryforsyth/PassGenLogic/Assets/jumbobackgroundimg.jpg);
+    background-image: url(./jumbobackgroundimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
